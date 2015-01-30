@@ -7,7 +7,7 @@ class BurritoGenerator
 		@valid_burrito = false
 	end
 
-	def new_batch!(num_burritos)
+	def new_batch!(num_burritos = 1)
 		num_burritos.times do
 			ingredients = []
 			until @valid_burrito
