@@ -8,6 +8,7 @@ class CreateIngredients < ActiveRecord::Migration
       t.string		:name
       t.boolean		:vegan
       t.integer		:calories
+      t.boolean   :substantive
 
       t.timestamps
     end
