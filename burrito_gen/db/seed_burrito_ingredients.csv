@@ -1,0 +1,48 @@
+name,vegan,calories,substantive
+chipotle chiles,TRUE,100,FALSE
+reduced-fat sour cream,FALSE,300,FALSE
+black beans,TRUE,120,TRUE
+whole-kernel corn,TRUE,200,TRUE
+salsa,TRUE,300,FALSE
+monterey jack cheese,FALSE,400,FALSE
+avocado,TRUE,250,TRUE
+alfalfa,TRUE,100,FALSE
+green onions,TRUE,100,FALSE
+salt and pepper,TRUE,0,FALSE
+chicken breast,FALSE,450,TRUE
+onion,TRUE,250,FALSE
+green pepper,TRUE,200,FALSE
+tomatoes,TRUE,300,FALSE
+garlic,TRUE,100,FALSE
+cilantro,TRUE,50,FALSE
+chili powder,TRUE,50,FALSE
+cumin,TRUE,0,FALSE
+cheddar cheese,FALSE,250,FALSE
+soy suace,TRUE,50,FALSE
+hoisin sauce,TRUE,50,FALSE
+honey,FALSE,200,FALSE
+lemongrass,TRUE,100,FALSE
+soybean oil,TRUE,50,FALSE
+sesame seed oil,TRUE,50,FALSE
+romaine lettuce,TRUE,150,TRUE
+cabbage,TRUE,150,TRUE
+cucumber,TRUE,50,FALSE
+pickled daikon,TRUE,200,FALSE
+carrot,TRUE,200,FALSE
+bean sprouts,TRUE,150,FALSE
+basil,TRUE,25,FALSE
+mint,TRUE,25,FALSE
+parsley,TRUE,25,FALSE
+ground beef,FALSE,400,TRUE
+rice,TRUE,200,TRUE
+refried beans,TRUE,250,TRUE
+black olives,TRUE,200,FALSE
+sour cream,FALSE,400,FALSE
+potatoes,TRUE,350,TRUE
+colby-monterey jack cheese,FALSE,400,FALSE
+red enchilada sauce,TRUE,200,FALSE
+mushrooms,TRUE,150,FALSE
+spinach,TRUE,200,TRUE
+pepperjack cheese,FALSE,400,FALSE
+ground sausage,FALSE,350,TRUE
+lime juice,TRUE,50,FALSE
