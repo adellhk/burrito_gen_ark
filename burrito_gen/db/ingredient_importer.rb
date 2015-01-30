@@ -1,7 +1,7 @@
 require_relative '../app/models/ingredient'
 
-module IngredientImporter
-  def self.import(filename = File.dirname(__FILE__) + "/../db/seed_burrito_ingredients.csv")
+class IngredientImporter
+  def self.import(filename = File.dirname(__FILE__) + "/seed_burrito_ingredients.csv")
     field_names = nil
     Ingredient.transaction do
       File.open(filename).each do |line|
@@ -16,3 +16,5 @@ module IngredientImporter
     end
   end
 end
+
+IngredientImporter.import
