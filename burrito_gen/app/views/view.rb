@@ -8,8 +8,26 @@ class View
     sleep(0.5)
   end
 
+  def save?
+    puts "If you want to save your burrito please enter a name for it! Otherwise, please press \"enter\"."
+    name = gets.chomp
+    if name.length > 0
+      Burrito.create(name: name)
+    end
+  end
+
+
+  # def save?
+  # puts "do you want to save this burrito combination?"
+  # input = gets.chomp
+  #   if input == "yes"
+  #     puts "Pick a name for your burrito!"
+  #     name = gets.chomp
+  #   end
+  # end
+
   def prompt_for_action
-    puts "Still hungry? Want another burrito? Press \"ENTER\" for another burrito or exit"
+    puts "Still hungry? Want another burrito? Press \"ENTER\" for another burrito or \"exit\""
     input = gets.chomp
   end
 
